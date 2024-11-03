@@ -88,7 +88,6 @@ function App(): React.JSX.Element {
            A
           </Section>
           <Section title="Follow Me For More">
-            Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
         </View>
