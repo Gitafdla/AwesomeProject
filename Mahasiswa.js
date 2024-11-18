@@ -13,10 +13,12 @@ const Mahasiswa = () => {
         onPress={() =>
           Linking.openURL('google.navigation:q=' + item.latitude + ',' + item.longitude)} >
         <View style={ styles.card }>
+
           <View style={ styles.avatar }>
             <FontAwesomeIcon icon={faUserGraduate} size={50} 
             color={ item.gender == 'male' ? 'lightblue' : 'pink'} />
           </View>
+          
           <View>
             <Text style={styles.cardtitle}>{item.first_name} {item.last_name}</Text>
 

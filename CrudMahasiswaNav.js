@@ -3,21 +3,22 @@ import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Profil from './App'; ////Membuat komponen Profil dari 'Profil'
-import Mahasiswa from './Mahasiswa'; //Membuat komponen Mahasiswa dari 'Mahasiswa'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import {faUser, faUserGraduate} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import { WebView } from 'react-native-webview'; 
+import Createdata from './Createdata';
+import Datamahasiswa from './Listdata';
 
 function HomeScreen() {
   return (
-      <Profil/>
+      <Createdata/>
   );
 }
 
 function DataMahasiswaScreen() {
   return (
-   <Mahasiswa />
+   <Datamahasiswa/>
   );
 }
 
